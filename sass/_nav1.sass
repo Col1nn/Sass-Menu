@@ -1,0 +1,22 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    
+nav
+    ul
+        +box-flex(row, space-around)
+    li
+        flex-basis: 20%
+        list-style: none
+        a
+            display: block
+            padding: 20px 0
+            text-align: center
+            text-decoration: none
+            color: $color-font
+            text-transform: uppercase
+            background-color: black
+            font-family: arial
+            &:hover
+                background-color: red
